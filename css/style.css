@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px
+}
+
+.logo img{
+    width: 145px; 
+}
+
+nav {
+    flex:1;
+    text-align:right;
+
+}
+
+nav ul{ display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+nav ul li a :hover{
+    color: red;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin:20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis:50%; 
+    min-width: 300px;
+}
+
+.col-2 img{
+    width: 100%;
+    padding: 30px 0;
+    }
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px; 
+    margin: 25px 0; 
+}
+
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px ;
+    background: #16a7b4;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+
+}
+
+.col-2 a :hover{
+    background: #106e77;
+}
+
+p{
+    color: #555;
+}
+
+.big-banner{
+    background: radial-gradient(#fff,#eaf2fb);
+    margin-top: -20px;
+}
+/* style catégories */
+ .categories{
+    margin:70px 0;
+ }
+
+
+.col-3{
+    flex-basis:30%;
+    min-width: 250px;
+    margin:auto;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color:#444;
+    margin: 50px 0;
+}
+
+/* section des meilleurs produits */
+
+.col-4{
+    flex-basis: 25%;
+    min-width:200px;
+    padding: 15px;
+    transition: transform 0.4s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+.rating .fa{
+    color: #16a7b4;
+}
+
+/* Le footer */
+
+.footer{
+    margin-top: 100px;
+	background-color: #24262b;
+    padding: 70px 0;
+    
+ }
+
+ .footer .container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.footer .container .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ .footer-col{
+    width: 25%;
+    padding: 0 15px;
+ }
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+ .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
