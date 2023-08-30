@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Boutique Pro</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -15,15 +15,14 @@
             <header class="navbar">
                 <div class="logo">
                     <img src="./images/logo-white.png" alt="logo">
-                </div>
-        
-                <nav>
+                </div>            
+                <nav >
                     <ul>
                         <li><a href="">Accueil</a></li>
                         <li><a href="">Produits</a></li>
                         <li><a href="">A propos</a></li>
                         <li><a href="">Contact</a></li>
-                        <li><a href="">Compte</a></li> 
+                        <li><a href="connexion.html">Compte</a></li> 
                     </ul>
                     <img src="./images/cart.png" alt="Cart icon" width="26px">
                 </nav>
@@ -227,7 +226,43 @@
                 </div>
             </div>
         </section>
-    
+    <!-- Section contact -->
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <form>          
+            <div class="separation"></div>
+            <div class="corps-formulaire">
+              <div class="gauche">
+                <div class="groupe">
+                  <label>Votre Prénom</label>
+                  <input type="text" autocomplete="off" />
+                  <i class="fa fa-user"></i>
+                </div>
+                <div class="groupe">
+                  <label>Votre adresse e-mail</label>
+                  <input type="text" autocomplete="off" />
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="groupe">
+                  <label>Votre téléphone</label>
+                  <input type="text" autocomplete="off" />
+                  <i class="fa fa-mobile"></i>
+                </div>
+              </div>
+      
+              <div class="droite">
+                <div class="groupe">
+                  <label>Message</label>
+                  <textarea placeholder="Saisissez ici..."></textarea>
+                </div>
+              </div>
+            </div>
+      
+            <div class="pied-formulaire" align="center">
+              <button>Envoyer le message</button>
+            </div>
+          </form>
+    </section>
 
     </main>
 
@@ -265,10 +300,10 @@
                 <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
